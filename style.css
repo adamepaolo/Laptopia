@@ -1,0 +1,351 @@
+*{box-sizing: border-box; margin:0;}
+
+html{
+	cursor:url('images/LS_re.png'),auto;
+
+}
+
+a{
+	cursor:url('images/LS_re.png'),auto;
+	
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+
+
+
+body {
+	background-image: url("images/laptop_bg.jpg");
+	  /* Full height */
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	}
+	
+#wrapper{
+	
+	width: 980px;
+	margin: 0 auto;
+	padding: 9px;
+	background-color:white;  
+	border-radius: 25px;		
+}
+
+#Main_Header{
+	margin: auto;
+	width: 85%;
+	border: 3px solid black;
+	padding: 10px;	
+	 border-radius: 20px;	
+}
+
+td{
+	border-collapse: collapse;
+	border: 1px solid black;
+	
+	width:10%;
+	padding: 15px; /* Increase padding for more space */
+	vertical-align: top; /* Align content to the top */
+	margin: 20px;
+	text-align: Center;
+	border-radius: 10px;
+	}
+
+.price {
+  font-weight: bold;
+  color: red;
+}
+
+.discount {
+  color: green;
+  font-weight: bold;
+}
+
+#brands{
+	font-weight: bold;
+	font-size: 40px;
+	border: 0px solid white;
+	
+}
+
+#brands td{
+	font-weight: bold;
+	border: 0px solid white;
+}
+
+label{
+	display: block;
+	padding: 10px;
+	font-weight: bold;
+}
+
+input{
+	display: inline-block;
+	
+	padding: 5px;
+	margin-left: 5px;
+	text-align: center;
+}
+
+fieldset{
+	padding: 10px;
+	margin: auto;
+	text-align: left;
+	width: 50%;
+	font-weight: bold;
+}
+#contact{
+  float: left;
+  width: 50%;
+  padding: 5px;
+  flex: 5;
+}
+
+#contact td{
+	border: 0px solid black;
+}
+
+#details{
+
+  float: right;
+  width: 50%;
+  padding: 5px;
+  flex: 5;
+}
+
+#details td{
+	border: 0px solid black;
+}
+#values td{
+	clear: both;
+	border: 0px solid black;
+}
+
+#QL td{
+	clear: both;
+	border: 0px solid black;
+	border-radius: 0px;
+}
+
+/*#shipping, #delivery, #issues, #DevArea td{
+		clear: both;
+	border: 0px solid black;
+	border-radius: 0px;
+}*/
+#intro{
+	padding: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 2;
+	
+}
+
+
+
+#condet td,table{
+	border: 0px solid white;
+}
+
+#sample td{
+	border: 0px solid white;
+}
+
+#contentlaptop td,tr,th{
+	border: 1px solid white;
+}
+
+#contentlaptop p{
+	text-align:justify;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#feature td{
+	border: 0px solid white;
+}
+
+#cred td{
+	border: 0px solid white;
+}
+
+tr{
+	padding: 12px 25px 25px 25px;
+	margin: 0px;	
+}
+	
+li{
+	text-align: justify;
+	padding: 10px;
+	text-size: 16px;
+}
+
+h2{
+	padding: 5px;
+}
+caption{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+#laptop_title{
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+h2{
+	text-align: center;
+	
+}	
+
+#underconst{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+	
+}
+
+	
+	
+	
+	
+p{
+	
+	padding:20px;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+	
+}	
+
+#copy{
+	
+	padding:20px;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	
+}	
+
+
+
+footer{
+	background-color: black;
+	color:white;
+	padding: 10;
+	text-align: center;
+	
+	
+}
+
+
+
+
+
+
+
+	
+	
+ /*     Zoom on Hover      */	
+ 
+ .zoom {
+  padding: 20px;
+  transition: transform .5s; /* Animation */
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+	
+	.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+	
+	
+	
+	
+	
+	
+	/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+  border-radius: 20px;	
+  padding: 15px;
+ /* position: fixed;
+  z-index:999999;*/
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  cursor:url('images/LS_re.png'),auto;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  cursor:url('images/LS_re.png'),auto;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
